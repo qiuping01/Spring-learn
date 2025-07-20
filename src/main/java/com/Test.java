@@ -9,7 +9,7 @@ import java.lang.reflect.Constructor;
 
 public class Test {
     public static void main(String[] args) {
-        test("com.test.entity.Student");
+        test("com.test.entity.Cat");
     }
 
     // 反射
