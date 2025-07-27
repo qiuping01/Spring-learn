@@ -1,10 +1,8 @@
 package com.test.entity;
 
-public class Student {
+public class Class {
     private Integer id;
     private String name;
-    private Integer age;
-    private Class clazz;
 
     public Integer getId() {
         return id;
@@ -22,29 +20,11 @@ public class Student {
         this.name = name;
     }
 
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public Class getClazz() {
-        return clazz;
-    }
-
-    public void setClazz(Class clazz) {
-        this.clazz = clazz;
-    }
-
     @Override
     public String toString() {
-        return "Student{" +
+        return "Class{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", age=" + age +
-                ", clazz=" + clazz +
                 '}';
     }
 }
