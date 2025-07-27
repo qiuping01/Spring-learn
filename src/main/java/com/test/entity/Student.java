@@ -45,6 +45,11 @@ public class Student {
         this.age = age;
     }
 
+    public Student(Integer id, Integer age) {
+        this.id = id;
+        this.age = age;
+    }
+
     public Student(){
         System.out.println("创建了Student对象");
     }

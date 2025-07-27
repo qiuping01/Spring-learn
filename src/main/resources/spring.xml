@@ -28,7 +28,7 @@
     <bean id="student4" class="com.test.entity.Student">
         <!--constructor-arg标签 调有参构造-->
         <constructor-arg name="id" value="4"></constructor-arg>
-        <constructor-arg name="name" value="老六"></constructor-arg>
+<!--        <constructor-arg name="name" value="老六"></constructor-arg>-->
         <constructor-arg name="age" value="33"></constructor-arg>
     </bean>
 
