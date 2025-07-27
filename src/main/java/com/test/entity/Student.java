@@ -47,4 +47,20 @@ public class Student {
                 ", clazz=" + clazz +
                 '}';
     }
+
+    //配之前的constructor-arg标签有参构造
+
+    public Student(Integer id, Integer age) {
+        this.id = id;
+        this.age = age;
+    }
+
+    public Student(Integer id, String name, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
+    //无参构造默认生成，有参后调无参需手动声明
+    public Student() {}
 }
