@@ -10,6 +10,7 @@ public class Student {
     }
 
     public void setId(Integer id) {
+        System.out.println("调用了 setId 方法");
         this.id = id;
     }
 
@@ -36,5 +37,14 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public Student(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Student(){
+        System.out.println("创建了Student对象");
     }
 }
