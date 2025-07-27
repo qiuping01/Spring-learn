@@ -9,8 +9,10 @@ public class Test {
         //1、加载spring.xml
         ApplicationContext ioc =
                 new ClassPathXmlApplicationContext("spring.xml");
-        //2、通过运行时类获取对象
-        Student bean = ioc.getBean(Student.class);
+        //2、通过id获取对象
+        Student bean = (Student) ioc.getBean("student");
         System.out.println(bean);
+        Student bean2 = (Student) ioc.getBean("student2");
+        System.out.println(bean2);
     }
 }
